@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my 3rdform</title>
+</head>
+<body>
+    <p><b>Registration Form</b></p>
+    <div align="center">
+    <form >
+        <fieldset style="background-color:#ffffdc;width:40%;text-align:center;">
+        <legend align="left">Personal details</legend>
+        <div>
+            <label> First name </label>
+            <input type="text" required  name="firstname">
+        </div><br>
+        <div>
+            <label> Last name </label>
+            <input type="text" required  name="lastname">
+        </div><br>
+        <div>
+            <label> Email address </label>
+            <input type="email" required  name="email">
+        </div><br>
+        <div>
+        <label>Gender</label>
+        <label for="ug"><input id="ug" type="radio" name="gender" value="male"> Male</label>
+        <label for="ug2"><input id="ug2" type="radio" name="gender" value="female">Female</label>
+</div>
+    </fieldset >
+        <fieldset  style="background-color:#ffffdc;width:40%;text-align:center;">
+            <legend align="left">City</legend>
+            <div>
+            <label for="uc">City</label>
+            <select id="uc" name="city">
+                <option value="irbid">Irbid</option>
+                <option value="aqaba">Aqaba</option>
+                <option value="mafraq">Mafraq</option>
+                <option value="madaba">Madaba</option>
+                <option value="amman" selected>Amman</option>
+                 <option value="alkarak">Alkara</option>
+               
+            </select>
+        </div>
+        </fieldset><br>
+        <div>
+<button type="submit" > Subscribe</button>
+</div>
+
+
+
+
+    </form>
+</div>
+</body>
+</html>

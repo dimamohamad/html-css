@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my 2nd form</title>
+</head>
+<body>
+    <p><b>Registration Form !</b></p>
+    <form>
+        <fieldset style="border:dotted;height:70% ; width:30%;display: inline-block;">
+            <p><b>Personal details</b></p><hr>
+        <div>
+        <label> First name:</label>
+        <input type="text"name="firstname" required>
+    </div>
+    <br>
+    <div>
+        <label> Larst name:</label>
+        <input type="text" name="lastname" required>
+    </div>
+    <br>
+    <div>
+        <label>Email</label>
+        <input type="email" name="useremail" required>
+    </div>
+    <br>
+    <div>
+        <label>Gender:</label>
+        <input id="userg" type="radio" name="gender" value="male">
+        <label for="userg">Male</label>
+        <input id="useg" type="radio" name="gender" value="female" >
+        <label for="useg">Female</label>
+    </div>
+    <br>
+    <div>
+    <label for="ty">City</label>
+    <select id="ty" name="city">
+        <option value="irbid">Irbid</option>
+        <option value="aqaba">Aqaba</option>
+        <option value="mafraq">Mafraq</option>
+        <option value="amman" selected>Amman</option>
+        <option value="alkarak">Alkara</option>
+
+    </select>
+    </div>
+    <br>
+    <input type="submit" value=" Sign up">
+    <br>
+</fieldset>
+    </form>
+    
+</body>
+</html>
