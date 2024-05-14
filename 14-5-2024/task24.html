@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid1</title>
+    <style>
+.pargrid{display: grid; grid-template-columns:auto auto auto;gap:10px 20px;background-color: white;  }
+
+.chigrid1{grid-column-start:1 ;grid-column-end:4;height: 50px;}
+.chigrid2{ grid-column-start:1 ;grid-column-end:3;height:100px;}
+.chigrid4 {height:100px;}
+.chigrid8{grid-column-start:2 ;grid-column-end:4;height:100px;}
+.ndgrid {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+      grid-column-start:1;grid-column-end:4;
+        gap: 10px 20px;
+        height: 100px;
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+    <div class="pargrid">
+<div class="chigrid1" style="background-color:#808080 ;"></div>
+<div class="chigrid2" style="background-color: blue;"></div>
+<div class="chigrid3" style="background-color: #add8e6;"></div>
+<div class="chigrid4" style="background-color: #ffff00;"></div>
+<div class="chigrid5" style="background-color: #ffff00;"></div>
+<div class="chigrid6" style="background-color: #ffff00;"></div>
+<div class="chigrid7" style="background-color: #add8e6;"></div>
+<div class="chigrid8" style="background-color: blue;"></div>
+ <div class="ndgrid">
+<div class="chigrid9" style="background-color:#ffa500 ;"></div>
+<div class="chigrid10" style="background-color:#ffa500 ;"></div>
+<div class="chigrid12" style="background-color:#ffa500 ;"></div>
+<div class="chigrid13" style="background-color:#ffa500 ;"></div>
+ </div>
+<div class="chigrid1" style="background-color:#808080 ;"></div>
+
+    </div>
+    
+</body>
+</html>
