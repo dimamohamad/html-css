@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+    <style>
+      .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url("0bc739968eeb709d8eebbdb132141cb8.jpeg");
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+      }
+      .button {
+        background-color: black;
+        color: white;
+        padding: 10px;
+      }
+      .sec1 {
+        text-align: center;
+      }
+      .cards-container {
+        display: flex;
+        background-color: rgba(29, 29, 71, 0.71);
+        justify-content: space-between;
+        padding: 20px;
+      }
+      .card {
+        background-color: aliceblue;
+        width: 32%;
+        text-align: center;
+        
+      }
+      .flex {
+        display: flex;
+      }
+      .div1 {
+        text-align: center;
+        width: 50%;
+        padding: 20px;
+        color: white;
+      }
+      footer {
+        display: flex;
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        text-align: center;
+        color: white;
+        justify-content: center;
+      }
+
+    @media screen and (max-width: 425px) {
+        .header{font-size:10px;}
+        .sec1{font-size:15px;}
+        .cards-container {
+         flex-direction: column;
+          gap: 20px;
+        }
+        .card {
+          width: auto;
+        }
+        .flex{ font-size: 10px;}
+        footer{font-size: 10px;}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1 style="color: white">Welcome to Responsive web</h1>
+      <p style="color: white">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec lectus odio
+      </p>
+      <input type="button" value="Read More" class="button" />
+    </div>
+    <div class="sec1">
+      <h2 style="color: rgb(0, 0, 0)">Responsive Web development</h2>
+      <p style="color: rgb(0, 0, 0)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae sapien faucibus, ullamcorper dui laoreet mi. Fusce sed mi enim. Vestibulum suscipit purus purus, ac convallis orci ullamcorper
+        ut.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae sapien faucibus, ullamcorper dui laoreet mi. Fusce sed mi enim. Vestibulum suscipit purus purus, ac convallis orci ullamcorper
+        ut.
+      </p>
+    </div>
+    <div class="cards-container">
+      <div class="card">
+        <img src="download.jpg" width="100%" />
+        <h2 style="color: rgb(0, 0, 0)">Why Responsive?</h2>
+        <br />
+        <p style="color: rgb(0, 0, 0)">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec lectus odio.
+        </p>
+      </div>
+      <div class="card">
+        <img src="images.jpg" width="100%" />
+        <h2 style="color: rgb(0, 0, 0)">Same experience every where</h2>
+        <br />
+        <p style="color: rgb(0, 0, 0)">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec lectus odio.
+        </p>
+      </div>
+      <div class="card">
+        <img src="images (1).jpg" width="100%" />
+        <h2 style="color: rgb(0, 0, 0)"> Improve your accessibility</h2>
+        <br />
+        <p style="color: rgb(0, 0, 0)">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec lectus odio.
+        </p>
+      </div>
+    </div>
+
+    <div class="sec1">
+      <h2 style="color: rgb(0, 0, 0)">Develop your Website</h2>
+      <br />
+      <p style="color: rgb(0, 0, 0)">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae sapien faucibus, ullamcorper dui
+        vel, laoreet mi. Fusce sed mi enim. Vestibulum suscipit purus purus, ac convallis orci ullamcorper
+        ut.
+      </p>
+    </div>
+    <div class="flex">
+      <div class="div1" style="background-color: #2590d4">
+        <h2>Contact Us</h2>
+        <br />
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="div1" style="background-color:#333333">
+        <h2>About Us</h2>
+        <br />
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </footer>
+  </body>
+</html>
